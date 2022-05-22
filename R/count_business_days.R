@@ -1,4 +1,4 @@
-# Generate Sequence of Dates
+#' Generate Sequence of Dates
 #' @importFrom lubridate %m+%
 seq_days_in_months <- function(year, from_month, to_month){
   month_length <- to_month - from_month + 1
